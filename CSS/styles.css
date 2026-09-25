@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Card titles */
-.service_card h2 {
+.service_card h3 {
     font-family: "Playfair Display", serif;
     font-size: 1.35rem;
     font-weight: 700;
