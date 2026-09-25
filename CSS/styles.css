@@ -567,7 +567,10 @@ body {
 .resume-section p {
     line-height: 1.7;
 }
-
+.resume-content p,
+.resume-content li {
+    font-weight: 500;
+}
 /* Core skills columns */
 .resume-skills {
     display: grid;
