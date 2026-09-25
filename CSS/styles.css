@@ -127,12 +127,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Soft purple and pink page background */
 body {
     background:
-        radial-gradient(circle at top left, #e5d5f3 0%, transparent 38%),
-        radial-gradient(circle at bottom right, #efd2e8 0%, transparent 42%),
-        #eee6f4;
+        radial-gradient(circle at top left, #d8c2eb 0%, transparent 40%),
+        radial-gradient(circle at bottom right, #e8c0dc 0%, transparent 45%),
+        #e4d8ec;
     color: #17112f;
 }
-
 /* Main homepage hero */
 .hero {
     max-width: 1200px;
