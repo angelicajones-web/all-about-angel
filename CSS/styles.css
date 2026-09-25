@@ -127,9 +127,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Soft purple and pink page background */
 body {
     background:
-        radial-gradient(circle at top left, #f8ecff 0%, transparent 35%),
-        radial-gradient(circle at bottom right, #fbdcff 0%, transparent 40%),
-        #fbf8ff;
+        radial-gradient(circle at top left, #e5d5f3 0%, transparent 38%),
+        radial-gradient(circle at bottom right, #efd2e8 0%, transparent 42%),
+        #eee6f4;
     color: #17112f;
 }
 
