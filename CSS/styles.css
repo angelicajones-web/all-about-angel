@@ -647,3 +647,28 @@ body {
         gap: 0;
     }
 }
+
+/* Readable resume text; preserve decorative page title. */
+.resume-page {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: #211b2b;
+}
+.resume-layout { grid-template-columns: minmax(280px, 340px) minmax(0, 1fr); }
+.resume-layout > * { min-width: 0; overflow-wrap: anywhere; }
+.resume-content { background-color: #fff; }
+.resume-layout h2, .resume-layout h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #422464;
+}
+.resume-section h2 { font-size: 1.65rem; }
+.resume-layout h3 { font-size: 1.25rem; }
+.resume-page li { line-height: 1.7; margin-bottom: 0.65rem; }
+.resume-download { font-size: 1.125rem; color: #512581; }
+.resume-download:focus-visible { outline: 3px solid #512581; outline-offset: 4px; }
+@media (max-width: 1000px) {
+    .resume-layout { grid-template-columns: minmax(0, 1fr); }
+}
